@@ -1,1 +1,4 @@
-# Projects
+The conference paper has been implemented by changing the pre-processing steps and achieved better accuracy results(Xgboost- 97.2%, SGD- 90.02%, KNN-95.8%, Naive bayes- 86.1%) than what were mentioned in the paper(Xgboost- 89.3%, SGD- 76.7%, KNN-87%, Naive bayes- 78.3%).4 different algorithms were used while implementing the project which are XGBoost, K-nearest neighbors, stochastic gradient descent and Naive Bayes. Among the 4 the highest accuracy is oberved in XGBoost which is 97.2% and least accuracy is observed in Naive-Bayes is 86.1%
+
+The conference paper is cited below:
+Usha, G., Narang, M., Kumar, A. (2021). Detection and Classification of Distributed DoS Attacks Using Machine Learning. In: Smys, S., Palanisamy, R., Rocha, Á., Beligiannis, G.N. (eds) Computer Networks and Inventive Communication Technologies. Lecture Notes on Data Engineering and Communications Technologies, vol 58. Springer, Singapore. https://doi.org/10.1007/978-981-15-9647-6_78
