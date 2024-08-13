@@ -7,8 +7,7 @@ Project1:
 
 Project2:
   A 4X4 MIMO system’s capacity is found by allocating equal power, optimal power using water filling
-  algorithm and plotted the capacity for optimal power allocation, equal power vs SNR using Python
-  
+  algorithm and plotted the capacity for optimal power allocation, equal power vs SNR using Python  
   Observation: A 4x4 MIMO system is implemented and it is observed that the optimal power allocation obtained from the Water Filling Algorithm leads to a higher capacity than equal power allocation at all SNR levels.
 
 Project3:
