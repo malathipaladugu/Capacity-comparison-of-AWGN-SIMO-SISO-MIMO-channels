@@ -1,4 +1,6 @@
-MIMO System Simulation
+**--------------------------**
+**MIMO System Simulation:**
+**--------------------------**
 
 Project1:
   Simulated MIMO system with ZF, LMMSE receiver and compared the results of BER vs SNR in MATLAB  
