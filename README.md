@@ -1,4 +1,18 @@
-The conference paper has been implemented by changing the pre-processing steps and achieved better accuracy results(Xgboost- 97.2%, SGD- 90.02%, KNN-95.8%, Naive bayes- 86.1%) than what were mentioned in the paper(Xgboost- 89.3%, SGD- 76.7%, KNN-87%, Naive bayes- 78.3%).4 different algorithms were used while implementing the project which are XGBoost, K-nearest neighbors, stochastic gradient descent and Naive Bayes. Among the 4 the highest accuracy is oberved in XGBoost which is 97.2% and least accuracy is observed in Naive-Bayes is 86.1%
+MIMO System Simulation
 
-The conference paper is cited below:
-Usha, G., Narang, M., Kumar, A. (2021). Detection and Classification of Distributed DoS Attacks Using Machine Learning. In: Smys, S., Palanisamy, R., Rocha, Á., Beligiannis, G.N. (eds) Computer Networks and Inventive Communication Technologies. Lecture Notes on Data Engineering and Communications Technologies, vol 58. Springer, Singapore. https://doi.org/10.1007/978-981-15-9647-6_78
+Project1:
+  Simulated MIMO system with ZF, LMMSE receiver and compared the results of BER vs SNR in MATLAB
+  Observation: A 2x2 MIMO system is mplemented and it is observed that the LMMSE receiver performs better than the ZF receiver at low SNR. But as SNR goes on increasing the difference between the two tends to zero.
+
+Project2:
+  A 4X4 MIMO system’s capacity is found by allocating equal power, optimal power using water filling
+  algorithm and plotted the capacity for optimal power allocation, equal power vs SNR using Python
+  Observation: A 4x4 MIMO system is implemented and it is observed that the optimal power allocation obtained from the Water Filling Algorithm leads to a higher capacity than equal power allocation at all SNR levels.
+
+Project3:
+  Analysed the capacity vs SNR curves of SIMO, SISO, AWGN channels in MATLAB
+  Observation: The channel capacity of AWGN > capacity of SIMO > capacity of SISO and the capacity increases with increase in SNR in all the cases. So, as number of antennas increases the capacity increases and the AWGN channel has highest SNR
+
+project4:
+  Designed a Spatial Modulation and a SSK system and plotted their BER performance using Python
+  Observation: In SSK, we don't use a modulation scheme at the transmitter as is the case in Spatial modulation but rather use a fixed symbol over the antennas. We observe the classic waterfall diagram for BER vs SNR in spatial modulation and in SSK.
